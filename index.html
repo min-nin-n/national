@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프론트 구현 평가-메인</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+
+<!-- 
+메모장
+-확대시 하단 푸터 백그라운드 잘리는 현상 발생, 전체적 문제 있는듯
+-축소시 & 확대시 탑 메뉴와 햄버거 버튼
+-축소시 오른쪽 여백 발생
+-->
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="headerInner">
+                <h1 class="logo">
+                    <a href="#"><img src="./images/toplogo-png0.png" alt="로고"></a>
+                </h1>
+                <nav class="menu">
+                    <ul class="mainmenu">
+                        <li><a href="#">HOME</a></li>
+                        <span>ㅣ</span>
+                        <li><a href="./subpage.html">BRAND</a></li>
+                        <span>ㅣ</span>
+                        <li><a href="#"><span>DISNEY PLUS</span></a></li>
+                        <span>ㅣ</span>
+                        <li><a href="#">STORE</a></li>
+                        <span>ㅣ</span>
+                        <li><a href="#">MAGAZINES</a></li>
+                        <span>ㅣ</span>
+                        <li><a href="#">SOCIAL MEDIA</a></li>
+                        <span>ㅣ</span>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="slider-container">
+                <!-- img -->
+                <ul class="slide-wrapper">
+                    <li><a href="#"><img src="./images/slide1.jpg" alt="slide1"></a></li>
+                    <li><a href="#"><img src="./images/slide2.jpg" alt="slide2"></a></li>
+                    <li><a href="#"><img src="./images/slide3.jpg" alt="slide3"></a></li>
+                    <li><a href="#"><img src="./images/slide4.jpg" alt="slide4"></a></li>
+                    <li><a href="#"><img src="./images/slide5.jpg" alt="slide5"></a></li>
+                    <li><a href="#"><img src="./images/slide6.jpg" alt="slide6"></a></li>
+                    <li><a href="#"><img src="./images/slide7.jpg" alt="slide7"></a></li>
+                    <li><a href="#"><img src="./images/slide8.jpg" alt="slide8"></a></li>
+                </ul>
+                <!-- indicator -->
+
+                <!-- ul.buttons>li.btn*4>a{$} -->
+                <ul class="buttons">
+                    <li class="btn active" data-slide="0"><a href="#">l</a></li>
+                    <li class="btn" data-slide="1"><a href="#">l</a></li>
+                    <li class="btn" data-slide="2"><a href="#">l</a></li>
+                    <li class="btn" data-slide="3"><a href="#">l</a></li>
+                    <li class="btn" data-slide="4"><a href="#">l</a></li>
+                    <li class="btn" data-slide="5"><a href="#">l</a></li>
+                    <li class="btn" data-slide="6"><a href="#">l</a></li>
+                    <li class="btn" data-slide="7"><a href="#">l</a></li>
+                </ul>
+            </div>
+            <section class="maininner">
+                <h1><span>l</span> DISNEY PLUS</h1>
+                <!-- BANNER -->
+                <div id="banner">
+                    <ul class="inner">
+                        <li><img src="./images/d1.JPG" alt="d1"></li>
+                        <li><img src="./images/d2.JPG" alt="d2"></li>
+                    </ul>
+                    <li class="img_margin"><img src="./images/d3.JPG" alt="d3"></li>
+                </div>
+                <div id="store">
+                    <h1><span>l</span> STORE</h1>
+                    <ul class="inner 1">
+                        <li><img src="./images/s1.JPG" alt="s1"></li>
+                        <li><img src="./images/s2.JPG" alt="s2"></li>
+                    </ul>
+                    <ul class="inner 2">
+                        <li><img src="./images/s3.JPG" alt="s3"></li>
+                        <li class="img_margin"><img src="./images/s4.JPG" alt="s4"></li>
+                    </ul>
+                </div>
+                <div id="magazine">
+                    <h1><span>l</span> MAGAZINE</h1>
+                    <li><img src="./images/m1.jpg" alt="m1"></li>
+                    <li><img src="./images/m2.jpg" alt="m2"></li>
+                    <li><img src="./images/m3.jpg" alt="m3"></li>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <nav class="footerInner">
+                <ul class="bmenu">
+                    <li><a href="#">HOME</a></li>
+                    <span>ㅣ</span>
+                    <li><a href="#">BRAND</a></li>
+                    <span>ㅣ</span>
+                    <li><a href="#">DISNEY PLUS</a></li>
+                    <span>ㅣ</span>
+                    <li><a href="#">STORE</a></li>
+                    <span>ㅣ</span>
+                    <li><a href="#">MAGAZINES</a></li>
+                    <span>ㅣ</span>
+                    <li><a href="#">SOCIAL MEDIA</a></li>
+                </ul>
+
+                <div class="contact">
+                    <ul>CONTACT US</ul>
+                    <div>
+                        <ul class="group1">
+                            <li><a href="#">의류<br>02.1588.2906</a></li>
+                            <li><a href="#">매거진<br>02.1588.2906</a></li>
+                            <li><a href="#">모바일 액세서리<br>02.1588.2906</a></li>
+                        </ul>
+                        <ul class="group2">
+                            <li><a href="#">트래블러 매거진<br>02.1588.2906</a></li>
+                            <li><a href="#">방송<br>02.1588.2906</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copy">
+                    <div class="copyright">
+                        <p>&copy; National Geographic Partners LLC. All rights reserved. NATIONAL GEOGRAPHIC and Yellow
+                            Border Design are trademarks of National Geographic Society, used under license.</p>
+                    </div>
+                    <div class="copyright-in">
+                        <p>개인정보 취급방침[업데이트됨]</p>
+                        <p>이용약관</p>
+                    </div>
+                </div>
+    </div>
+    </nav>
+    </footer>
+    </div>
+</body>
+
+</html>
